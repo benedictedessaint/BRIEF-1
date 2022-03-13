@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>formulaire</title>
+</head>
+  <p>FORMULAIRE A REMPLIR</p>
+  <form>
+   <label for="prenom">Prénom : <input type="text" placeholder="saisir votre prenom" required/></label>
+   <p>
+    <label for="Nom">Nom : <input type="text"placeholder="saisir votre nom" required /></label>
+  </p>
+   <p>
+    <label for="Age">Age:<input type="number" maxlength="3" placeholder="votre age en annee" required/></label>
+  </p>
+    <label for="Sexe">Sexe</label>
+   <input type="radio" name="sexe" required="required">Masculin 
+   <input type="radio" name="sexe">Féminin
+   <input type="radio" name="sexe">Transgenre
+  <p>
+    <label for="email">Adresse Mail</label>
+    <input id="email" name="email" type="email" placeholder="exemple@domaine.com" required>
+  </p>
+   Adresse
+   <p>
+    <label for="num">Numéro</label>
+  </p>
+   <input id="numéro">
+  <p>
+    <label for="nom de rue">Rue</label></p>
+    <input id="rue" name="rue" type="text" />
+  <p>
+    <label for="cp">Code postal</label></p>
+    <input id="code-postal" name="code-postal" type="number" placeholder="cp en 5 chiffres" maxlength="5" />
+  <p>
+    <label for="ville">Ville</label></p>
+    <input id="ville" name="ville" type="text" />
+  <p>
+    <label for="metier">Métier exercé</label>
+    <input type= "radio">boulanger
+    <input type= "radio">charcutier
+    <input type= "radio">traiteur
+    <input type= "radio"> autre précisez
+    <input type="text">
+  </p>
+  <p>
+    <label for="nationalite">Quelle est votre nationalité</label>
+  </p>
+    <select name="pays" id="nationalité">
+    <option value="france">Français</option>
+    <option value="espagne">Espagnol</option>
+    <option value="italie">Italien</option>
+    <option value="royaume-uni">Anglais</option>
+    <option value="canada">Allemand</option>
+    <option value="etats-unis">Autre</option>
+    </select>
+    <p>
+    <label for="naissance">Quelle est votre date de naisance</label>
+  </p>
+    <input id="date" type="date" maxlength="8">
+  <p>
+     <label for="paysdenaissance">Dans quel pays êtes-vous né ?</label>
+  </p>
+  <p>
+    <select name="paysnaissance" id="paysnaissance">
+    <option value="france">France</option>
+    <option value="espagne">Espagne</option>
+    <option value="italie">Italie</option>
+    <option value="royaume-uni">Royaume-Uni</option>
+    <option value="canada">Allemagne</option>
+    <option value="etats-unis">Autre</option>
+  </select> </p>
+  <p>
+    <label for="numerocq">Numéro desécurité sociale</label>
+    <input id="sécuritésociale" name="sécuritésociale" type="number" max="13">
+  </p>
+  <p>
+    Numéro du passeport
+    <input id="passeport" name="passeport" type="text">
+  </p>
+   <p>
+    Date de délivrance
+  </p>
+    <input id="datedelivrance" type="date">
+   <p>
+    Date de validité
+  </p>
+    <input id="datevalidité" type="date">
+  <p>
+    <input type="submit" value="Envoyer le formulaire">
+  </p>
+</form>
+</body>
+</html>
